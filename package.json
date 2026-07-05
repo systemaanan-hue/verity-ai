@@ -1,0 +1,13 @@
+{
+  "name": "verity-ai-server",
+  "version": "1.0.0",
+  "description": "Verity Minecraft eklentisi için AI sohbet sunucusu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
